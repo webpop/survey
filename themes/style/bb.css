@@ -22,6 +22,10 @@
 span.sp-l {
   margin-left: 0.07em; }
 
+body {
+  overflow-y: auto;
+  position: static; }
+
 .deck-container {
   font-family: "Avenir Next", "Helvetica Neue", sans-serif;
   font-size: 1.75em;
@@ -141,12 +145,15 @@ span.sp-l {
       border-radius: 100%;
       vertical-align: top;
       margin: 0.1em; }
+    .deck-container ul.inputs input[type="radio"]:focus + i, .deck-container ul.inputs input[type="checkbox"]:focus + i {
+      box-shadow: 0 0 20px #5B5BE4; }
     .deck-container ul.inputs input[type="checkbox"]:checked + i:after {
       content: "\2713";
       vertical-align: top;
       position: relative;
       font-size: 1.1em;
-      top: -0.48em; }
+      top: -0.2em;
+      left: -0.05em; }
     .deck-container ul.inputs input[type="email"] {
       width: 15.5em;
       border: none;
