@@ -57,13 +57,12 @@ body {
       background: #c00;
       color: #fff; }
     .deck-container .slide ::selection {
-      background: #c00;
+      background: transparent;
       color: #fff; }
     .deck-container .slide a, .deck-container .slide a:hover, .deck-container .slide a:focus, .deck-container .slide a:active, .deck-container .slide a:visited {
-      color: #c00;
       text-decoration: none; }
     .deck-container .slide a:hover, .deck-container .slide a:focus {
-      text-decoration: underline; }
+      text-decoration: none; }
     .deck-container .slide a.button, .deck-container .slide button {
       background: transparent;
       color: #fff;
@@ -117,6 +116,11 @@ body {
     background: #BD2550; }
   .deck-container .slide.purple {
     background: #BD25B1; }
+  .deck-container .slide.teal {
+    background: #008080; }
+
+
+
   .deck-container ul.inputs {
     list-style: none;
     padding-left: 0;
