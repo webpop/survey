@@ -57,12 +57,13 @@ body {
       background: #c00;
       color: #fff; }
     .deck-container .slide ::selection {
-      background: transparent;
+      background: #c00;
       color: #fff; }
     .deck-container .slide a, .deck-container .slide a:hover, .deck-container .slide a:focus, .deck-container .slide a:active, .deck-container .slide a:visited {
+      color: #c00;
       text-decoration: none; }
     .deck-container .slide a:hover, .deck-container .slide a:focus {
-      text-decoration: none; }
+      text-decoration: underline; }
     .deck-container .slide a.button, .deck-container .slide button {
       background: transparent;
       color: #fff;
@@ -114,16 +115,12 @@ body {
     background: #25BD74; }
   .deck-container .slide.red {
     background: #BD2550; }
+  .deck-container .slide.cyan {
+    background: #25ABBD; }
   .deck-container .slide.purple {
     background: #BD25B1; }
-  .deck-container .slide.teal {
-    background: #008080; }
-  .deck-container .slide.black {
-    background: rgb(43, 40, 40); }
-
-
-
-
+  .deck-container .slide.blue2 {
+    background: #3125BD; }
   .deck-container ul.inputs {
     list-style: none;
     padding-left: 0;
@@ -174,15 +171,3 @@ body {
     width: 100%; }
   .deck-container ul.inputs button {
     width: 100%; } }
-
-
-
-/*** Retina Ipad ***/
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (-webkit-min-device-pixel-ratio: 2) {
-  .deck-container ul.inputs input[type="checkbox"]:checked + i:after {
-    left: -0.2em;
-  }
-}
