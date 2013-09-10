@@ -73,6 +73,9 @@ body {
       font-size: 0.3em; }
     .deck-container .slide button {
       width: 15.5em; }
+    .deck-container .slide .button-subtext {
+      font-size: 0.15em;
+      font-weight: normal; }
   .deck-container > .slide .deck-before, .deck-container > .slide .deck-previous {
     opacity: 0.4; }
     .deck-container > .slide .deck-before:not(.deck-child-current) .deck-before, .deck-container > .slide .deck-before:not(.deck-child-current) .deck-previous, .deck-container > .slide .deck-previous:not(.deck-child-current) .deck-before, .deck-container > .slide .deck-previous:not(.deck-child-current) .deck-previous {
