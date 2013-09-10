@@ -118,6 +118,9 @@ body {
     background: #BD25B1; }
   .deck-container .slide.teal {
     background: #008080; }
+  .deck-container .slide.black {
+    background: rgb(43, 40, 40); }
+
 
 
 
